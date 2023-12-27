@@ -1,0 +1,31 @@
+header{
+	border: 2px solid powderblue;
+	margin-right: 1000px;
+}
+.oursong{
+	font-family: fantasy;
+	text-align: center;
+	color: mediumaquamarine;
+}
+.links{
+	font-family: monospace;
+	font-size: 30px;
+}
+.styleshead{
+	border: 4px dotted darkgoldenrod;
+	text-align: center;
+	margin-inline: 500px;
+}
+#img1{
+	width: 100%;
+}
+.style{
+	background-image: url('../images/tdavn.jpeg');
+}
+.longlivehead{
+	text-align: center;
+	border: 10px double purple;
+}
+.longlive{
+	color: purple;
+}
