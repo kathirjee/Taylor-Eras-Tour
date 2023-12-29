@@ -1,3 +1,16 @@
+table{
+	font-family: cursive;
+	border-collapse: collapse;
+	width: 100%;
+}
+td, th{
+	border: 1px double #efffff;
+	text-align: left;
+	padding: 6px;
+}
+tr:nth-child(even){
+	background-color: #eee;
+}
 a:link {
   color: green;
   background-color: transparent;
