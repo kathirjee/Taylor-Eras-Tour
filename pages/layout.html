@@ -11,9 +11,9 @@
 }
 header{
 	background-color: palevioletred;
-	padding: 40px;
+	padding: 30px;
 	text-align: center;
-	font-size: 40px;
+	font-size: 35px;
 	color: darkgoldenrod;
 }
 nav{
@@ -27,12 +27,24 @@ nav ul{
 	list-style-type: asterisks;
 	padding: 0;
 }
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #f1f1f1;
-  height: 300px;
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+.all-browsers > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.browser {
+  background: white;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
 }
 section::after {
   content: "";
