@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../css/first.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TAYLOR ARTICLE</title>
+	<style>
+		*{
+	box-sizing: border-box;
+}
+header{
+	background-color: palevioletred;
+	padding: 40px;
+	text-align: center;
+	font-size: 40px;
+	color: darkgoldenrod;
+}
+nav{
+	float: left;
+	width: 40%;
+	height: 250px;
+	background: powderblue;
+	padding: 20px;
+}
+nav ul{
+	list-style-type: asterisks;
+	padding: 0;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+
+ @media (max-width: 600px){
+ nav, article {
+    width: 100%;
+    height: auto;
+  }
+ }
+	</style>
+</head>
+<body>
+	<header>
+		<h3>NY TIMES</h3>
+	</header>
+	<section>
+		<nav>
+			<ul>
+				<li>Person of the year</li>
+				<li>unstoppable ts</li>
+				<li>Mastermind</li>
+			</ul>
+		</nav>
+		<article>
+			<h1>Person of the year</h1>
+			<p>The magazine chose the pop star over finalists that included the Hollywood strikers, Barbie and King Charles III. Time magazine on Wednesday named Taylor Swift as its person of the year. “Picking one person who represents the eight billion people on the planet is no easy task</p>
+			<p>Swift has also become the subject of academic and (even more) journalistic interest: Harvard University will offer a “Taylor Swift and Her World” class, and Gannett, the largest newspaper chain in the United States, appointed a special reporter to cover nothing but Swift.</p>
+		</article>
+	</section>
+
+	<footer>
+		<p>Swift grabbed many headlines in 2023, in part spurred by her immensely popular Eras Tour that proved too much for Ticketmaster to handle, the release of the rerecording of her 2014 album “1989” that broke sales records and her relationship with the Kansas City Chiefs tight end Travis Kelce.</p>
+	</footer>
+
+
+</body>
+</html>
